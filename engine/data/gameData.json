@@ -1,18 +1,4 @@
 {
     "games": [
-        {
-            "id": "b31a0d20-d560-4be3-a7d9-b36caa86ff98",
-            "username": "Joel",
-            "word": "Gemuese",
-            "data": {
-                "trys": 5,
-                "usedLetter": [
-                    "G",
-                    "d",
-                    "d"
-                ],
-                "lifes": 10
-            }
-        }
     ]
 }

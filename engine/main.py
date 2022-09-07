@@ -155,7 +155,7 @@ def error(msg):
 def isDead(trys, gameId):
     return {
         "status": 0,
-        "trys": data["trys"],
+        "trys": trys,
         "gameId": gameId,
     }
 
