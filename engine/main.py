@@ -1,11 +1,13 @@
 import random
 
 from flask import Flask, request
+from flask_cors import CORS
 import uuid
 import json
 
 # initialize Flask-Server
 app = Flask(__name__)
+CORS(app)
 
 config = {
     "apiVersion": "1",
@@ -85,8 +87,6 @@ def addLetter():
                 else:
                     res = letterDenied(gameId, letter, game["data"], data.index(game))
                     return res
-            else:
-                return error("Something went wrong")
 
 def checkIfLetterContains(word, letter):
     if letter.lower() in word.lower():
