@@ -120,10 +120,13 @@ def letterSuccess(gameId, letter, data, dataIndex):
 def letterDenied(gameId, letter, data, dataIndex):
     data["usedLetter"].append(letter.lower())
     data["trys"] = data["trys"] + 1
-    if data["lifes"] >= 1:
+    if data["lifes"] > 1:
         data["lifes"] = data["lifes"] - 1
+    elif data["lifes"] == 1:
+        data["lifes"] = data["lifes"] - 1
+        isDead(data["lifes"], gameId)
     else:
-        isDead()
+        isDead(data["lifes"], gameId)
 
     jsonFile = {}
 
@@ -149,8 +152,12 @@ def error(msg):
         "message": msg
     }
 
-def isDead():
-    return "dead"
+def isDead(trys, gameId):
+    return {
+        "status": 0,
+        "trys": data["trys"],
+        "gameId": gameId,
+    }
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
