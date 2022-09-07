@@ -1,0 +1,91 @@
+{
+    "games": [
+        {
+            "id": "17c5da12-ef3b-4f82-a712-2ba93d3b3c48",
+            "username": "Joel",
+            "word": "Geschlechter",
+            "data": {
+                "trys": 3,
+                "usedLetter": [
+                    "x",
+                    "w",
+                    "v"
+                ],
+                "lifes": 9
+            }
+        },
+        {
+            "id": "5e488e00-be16-46dc-8aff-9f88a8979339",
+            "username": "Joel",
+            "word": "Desoxy",
+            "data": {
+                "trys": 0,
+                "usedLetter": [],
+                "lifes": 12
+            }
+        },
+        {
+            "id": "b6b17a70-d8f6-4e58-87c8-ade189696166",
+            "username": "joel",
+            "word": "Rhythmus",
+            "data": {
+                "trys": 0,
+                "usedLetter": [],
+                "lifes": 12
+            }
+        },
+        {
+            "id": "3a310101-5897-40f8-8bad-2dc458287517",
+            "username": "asdasd",
+            "word": "Gymnastik",
+            "data": {
+                "trys": 7,
+                "usedLetter": [
+                    "z",
+                    "k",
+                    "r",
+                    "t",
+                    "u",
+                    "d",
+                    "c"
+                ],
+                "lifes": 7
+            }
+        },
+        {
+            "id": "5552a47e-0d9f-457d-b74f-41478831d2c9",
+            "username": "Joel",
+            "word": "Arbeitsunfaehigkeitsbescheinigung",
+            "data": {
+                "trys": 24,
+                "usedLetter": [
+                    "k",
+                    "x",
+                    "v",
+                    "t",
+                    "f",
+                    "d",
+                    "r",
+                    "p",
+                    "c",
+                    "b",
+                    "a",
+                    "q",
+                    "e",
+                    "s",
+                    "g",
+                    "h",
+                    "i",
+                    "j",
+                    "n",
+                    "m",
+                    "o",
+                    "l",
+                    "y",
+                    "u"
+                ],
+                "lifes": 2
+            }
+        }
+    ]
+}
